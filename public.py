@@ -38,7 +38,7 @@ print("""
 │/_/   \_\__,_|\__\___/  /_/   \_\_|  \___|_| |_|│
 │                                         PUBLIC │
 └────────────────────────────────────────────────┘
-Version 3.1.0                  Made by markprower
+Version 3.1.0                         Made by rin
     """)
 
 # Set global status for disk manipulation
@@ -810,4 +810,4 @@ except KeyboardInterrupt:
     print("\nScript execution interrupted by user. (Pressed Ctrl+C)\n")
     cancel()
 
-# script made by markprower :)
+# script made by rin :)
