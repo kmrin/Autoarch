@@ -678,9 +678,9 @@ GRUB Bootloader installed. Proceeding...
 # Ask user if they would like to have a ready to use desktop environment
 def desktop():
     # Commands
-    kde_packages = "arch-chroot /mnt pacman -S --noconfirm xorg plasma console dolphin sddm kvantum-qt5 kcalc ark " \
-                   "kate kvantum-qt5 kcolorchooser kaccounts-providers kaccounts-integration kio-gdrive " \
-                   "dolphin-plugins gvfs gvfs-afc gvfc-goa gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-nfs " \
+    kde_packages = "arch-chroot /mnt pacman -S --noconfirm xorg plasma konsole dolphin sddm kcalc ark " \
+                   "kate kcolorchooser kaccounts-providers kaccounts-integration kio-gdrive " \
+                   "dolphin-plugins gvfs gvfs-afc gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-nfs " \
                    "gvfs-smb openssl sshfs kconfigwidgets kcoreaddons kdecoration kguiaddons kiconthemes " \
                    "kwindowsystem qt5-declarative qt5-x11extras qt5-tools qt5pas partitionmanager " \
                    "filelight kdialog ksysguard gnome-keyring libgnome-keyring kwalletmanager seahorse "
