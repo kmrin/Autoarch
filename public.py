@@ -46,7 +46,7 @@ diskManipulated = False
 
 # Information gathering
 def getInfo():
-    getInfo.language = input("Choose a language: [Ex.: pt_BR, en_US...]: ")
+    getInfo.language = input("Choose a language: [Ex.: pt_BR, en...]: ")
     getInfo.hostname = input("Choose a hostname: ")
     getInfo.username = input("Now a username: ")
 
